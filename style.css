@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: url(https://cdn.wallpapersafari.com/2/29/l2pTMd.jpg);
+  background-size: cover;
+}
+
+.container {
+  background: url(https://cf-media.cellebrite.com/wp-content/uploads/2019/05/pipes-bg-blue.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 350px;
+  text-align: center;
+  display: flex;
+  color: white;
+  box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.containerTemp {
+  background: url(https://cf-media.cellebrite.com/wp-content/uploads/2019/05/pipes-bg-blue.jpg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 133%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  color: white;
+  box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cx_alura {
+  width: 45%;
+  background: rgba(20, 20, 20, 0.8);
+  padding: 30px 0;
+  border-right: 5px solid rgba(30, 30, 30, 0.8);
+}
+
+.cx_temp {
+  width: 45%;
+  background: rgba(20, 20, 20, 0.8);
+  padding: 30px 0;
+  border-right: 5px solid rgba(30, 30, 30, 0.8);
+}
+
+.alura-logo {
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.alura-aula {
+  width: 90px;
+  position: absolute;
+  top: 30px;
+  right: -25px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.calc_m {
+  font-size: 30px;
+  padding-top: 0px;
+}
+
+.description {
+  font-size: 19px;
+  padding-top: 40px;
+}
+
+.im_dev_logo {
+  width: 225px;
+  padding-top: 60px;
+}
+
+.boxs {
+  width: 70%;
+  padding: 15px 0;
+  background: rgb(20 19 35 / 69%);
+  transition: 0.2s;
+  h2 {
+    font-weight: 300;
+  }
+}
+
+.boxs_label {
+  margin: 10px 0 0 10px;
+  font-size: 16px;
+  padding: 15px;
+  width: 120px;
+  border: 1px solid rgb(64 196 255);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, 0.2);
+  color: white;
+  outline: none;
+}
+
+.boxs_temp {
+  margin: 1px 0 0 1px;
+  font-size: 16px;
+  padding: 15px;
+  width: 60px;
+  border: 1px solid rgb(64 196 255);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, 0.2);
+  color: white;
+  outline: none;
+}
+
+.box_calc {
+  margin: 30px 0 0 30px;
+  font-size: 16px;
+  font-weight: 800;
+  width: 25%;
+  height: 30px;
+  border: 1px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgb(64 196 255);
+  color: #000000;
+  outline: none;
+}
+
+.box_dif {
+  margin: 30px 0 0 20px;
+  font-size: 16px;
+  font-weight: 800;
+  width: 25%;
+  height: 30px;
+  border: 1px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgb(64 196 255);
+  color: #000000;
+  outline: none;
+  margin-right: 17px;
+}
+
+.box_result {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 800;
+  width: 23%;
+  height: 30px;
+  border: 1px solid #000000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgb(64 196 255);
+  color: #000000;
+  outline: none;
+}
+
+.result {
+  color: #ffffff;
+  font-size: 18px;
+  font-justify: inter-word;
+  text-align: absolute;
+}
+
+.box_blb {
+  list-style-type: none;
+  padding: 0;
+}
+
+.txt_blb {
+  text-aling: center;
+}
+
+.temp_ {
+  padding-top: 30px;
+}
+
+button:hover {
+  background: #268eb9;
+}
+
+.VF {
+  padding-top: 35px;
+}
