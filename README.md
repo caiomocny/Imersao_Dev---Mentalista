@@ -1,4 +1,4 @@
-# Imersao_Dev---Mentalista
+# Mentalista
  Programa em JavaScript, CSS e HTML desenvolvido ao longo da Imersão Alura a qual fiz parte. 
  
 ## Objetivo do programa: 
